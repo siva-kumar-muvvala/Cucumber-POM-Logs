@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.training.runners.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.890 s <<< FAILURE! -- in com.training.runners.RunCucumberTest
+com.training.runners.RunCucumberTest.runScenario["Successful login", "Login feature"](1) -- Time elapsed: 0.215 s <<< FAILURE!
+java.lang.ExceptionInInitializerError
+	at com.training.factory.DriverFactory.initDriver(DriverFactory.java:19)
+	at com.training.hooks.Hooks.setUp(Hooks.java:18)
+Caused by: java.lang.RuntimeException: config.properties file not found in src/main/resources
+	at com.training.utils.ConfigReader.<clinit>(ConfigReader.java:14)
+	... 2 more
+

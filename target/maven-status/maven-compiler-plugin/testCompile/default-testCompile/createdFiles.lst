@@ -1,0 +1,8 @@
+com\training\runners\RunCucumberTest.class
+com\training\pages\SecureAreaPage.class
+com\training\stepdefinitions\LoginSteps.class
+com\training\hooks\Hooks.class
+com\training\pages\LoginPage.class
+com\training\utils\ConfigReader.class
+com\training\factory\DriverFactory.class
+com\training\pages\BasePage.class
